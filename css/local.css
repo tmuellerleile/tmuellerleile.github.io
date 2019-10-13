@@ -35,3 +35,27 @@ a:hover {
   border-bottom:1px dotted #666;
   text-decoration:none;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color:#ccc;
+    background-image: url("../img/stripes_dark.png");
+  }
+
+  body > .container {
+    background-color:#333;
+    border:1px solid #666;
+  }
+
+  h1 {
+    color: #ccc;
+  }
+
+  a {
+    color:#ccc;
+  }
+  a:hover {
+    color:#ccc;
+    border-bottom:1px dotted #ccc;
+  }
+}
